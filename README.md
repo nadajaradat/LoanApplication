@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Loan Application Form with Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple loan application form built using React. The form collects user inputs, including name, phone number, age, employment status, and salary range. It includes basic validation to ensure that user inputs fall within acceptable limits. Additionally, a modal is displayed to show the submission status of the form.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+### Technologies Used
+- React
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **User Input Handling:** The project uses React's `useState` to manage user inputs efficiently.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Basic Validation:** User inputs are validated to ensure they meet the following criteria:
+   - Phone number must be between 8 and 10 digits.
+   - Age must be between 18 and 65.
 
-### `npm test`
+3. **Modal for Submission Status:** After the user submits the loan application form, a modal is displayed to show the submission status:
+   - Success Message: If the form is submitted successfully.
+   - Error Message: If there are validation errors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Structure
 
-### `npm run build`
+The project is organized as follows:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `LoanForm.js`: Contains the React component for the loan application form.
+- `Modal.js`: Contains the React component for the modal that displays submission status.
+- `style.css`: CSS styles for the form and modal.
+- `App.js`: The main application component that renders the loan application form.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
